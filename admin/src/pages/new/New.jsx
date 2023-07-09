@@ -31,7 +31,7 @@ const New = ({ inputs, title }) => {
         img: url,
       };
 
-      await axios.post("/auth/register", newUser);
+      await axios.post("https://wanderer-5z1e.onrender.com/api/auth/register", newUser);
     } catch (err) {
       console.log(err);
     }
