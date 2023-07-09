@@ -51,5 +51,5 @@ app.get('/',(req,res)=>{
 })
 app.listen(port,()=>{
     connect();
-    console.log("connected to port");
+    console.log(`connected to ${port}`);
 })
