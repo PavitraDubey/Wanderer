@@ -4,7 +4,7 @@
 .reserve {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.418);
+    backdrop-filter: blur(7px);
     position: fixed;
     top: 0;
     left: 0;
@@ -14,21 +14,26 @@
   }
   
   .rContainer {
-    background-color: white;
+    background-color: rgb(225, 238, 242);
     padding: 20px;
     position: relative;
+    border-radius: 7px;
   }
   
   .rClose {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     cursor: pointer;
+    color: #0071c2;
+    height: 30px;
+    width: 30px;
   }
   
   .rItem {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 50px;
     padding: 20px;
   }

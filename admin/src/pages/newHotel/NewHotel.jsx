@@ -19,6 +19,7 @@ const NewHotel = () => {
   };
 
   const handleSelect = (e) => {
+    console.log(e.target.selectedOptions)
     const value = Array.from(
       e.target.selectedOptions,
       (option) => option.value
