@@ -22,7 +22,7 @@ const Register = () => {
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/auth/register", credentials);
+      const res = await axios.post("https://wanderer-5z1e.onrender.com/api/auth/register", credentials);
       navigate("/");
     } catch (err) {
       console.log("error");
