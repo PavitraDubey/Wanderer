@@ -1,0 +1,60 @@
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1524946274118-e7680e33ccc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWluaW1hbCUyMGJlYWNofGVufDB8fDB8fHww&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lButton {
+    border: none;
+    padding: 10px 10px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    width: 160px;
+  }
+  .formInput>input{
+    height: 20px;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .userImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .imgchooser{
+    border: none;
+  }
+  .formInput{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .formInput>label{
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+  }
